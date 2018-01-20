@@ -1,5 +1,45 @@
 body {
 	background-color: #C6BAEE;
 	background-image: repeating-linear-gradient(120deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .1) 1px, transparent 1px, transparent 60px), repeating-linear-gradient(60deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .1) 1px, transparent 1px, transparent 60px), linear-gradient(60deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, .1) 75%, rgba(0, 0, 0, .1)), linear-gradient(120deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, .1) 75%, rgba(0, 0, 0, .1));
-	background-size: 70px 120px;
+	background-size: 35px 60px;
+}
+
+#header{
+	background-color: rgba(255, 255, 255, .4);
+	text-align: center;
+}
+
+.card {
+	background: #fff;
+	background: 
+	linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%) 0 0,
+	linear-gradient(245deg, transparent 75%, rgba(255,255,255,.8) 75%) 0 0,
+	linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%) 7px -15px,
+	linear-gradient(245deg, transparent 75%, rgba(255,255,255,.8) 75%) 7px -15px,
+	#FDE4F2;
+	background-size: 5px 10px
+}
+
+.btn-primary {
+	background: #fff;
+	background: 
+	linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%) 0 0,
+	linear-gradient(245deg, transparent 75%, rgba(255,255,255,.8) 75%) 0 0,
+	linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%) 7px -15px,
+	linear-gradient(245deg, transparent 75%, rgba(255,255,255,.8) 75%) 7px -15px,
+	#E2FBFB;
+	background-size: 5px 10px;
+	color: black;
+}
+
+.btn-primary:hover {
+	background: #fff;
+	background: 
+	linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%) 0 0,
+	linear-gradient(245deg, transparent 75%, rgba(255,255,255,.8) 75%) 0 0,
+	linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%) 7px -15px,
+	linear-gradient(245deg, transparent 75%, rgba(255,255,255,.8) 75%) 7px -15px,
+	#95DCDC;
+	background-size: 5px 10px;
+	color: black;
 }
